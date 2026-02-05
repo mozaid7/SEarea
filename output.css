@@ -729,6 +729,30 @@ video {
   height: 1px;
 }
 
+.h-\[17px\] {
+  height: 17px;
+}
+
+.h-\[54px\] {
+  height: 54px;
+}
+
+.h-\[18px\] {
+  height: 18px;
+}
+
+.h-\[19px\] {
+  height: 19px;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
+.h-\[620px\] {
+  height: 620px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -771,6 +795,34 @@ video {
 
 .w-\[110px\] {
   width: 110px;
+}
+
+.w-\[575\.57px\] {
+  width: 575.57px;
+}
+
+.w-\[800px\] {
+  width: 800px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[24px\] {
+  width: 24px;
+}
+
+.w-\[265px\] {
+  width: 265px;
+}
+
+.w-\[285px\] {
+  width: 285px;
+}
+
+.min-w-\[265px\] {
+  min-width: 265px;
 }
 
 .max-w-\[1500px\] {
@@ -858,6 +910,18 @@ video {
   gap: 40px;
 }
 
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -896,6 +960,10 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-white\/20 {
@@ -1026,6 +1094,26 @@ video {
   padding-bottom: 60px;
 }
 
+.pr-\[400px\] {
+  padding-right: 400px;
+}
+
+.pt-\[80px\] {
+  padding-top: 80px;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.pb-\[40px\] {
+  padding-bottom: 40px;
+}
+
+.pr-\[20px\] {
+  padding-right: 20px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1042,6 +1130,10 @@ video {
   font-family: 'Crimson Text';
 }
 
+.font-\[\'Roboto_Mono\'\] {
+  font-family: 'Roboto Mono';
+}
+
 .text-\[30px\] {
   font-size: 30px;
 }
@@ -1056,6 +1148,18 @@ video {
 
 .text-\[15px\] {
   font-size: 15px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .font-medium {
@@ -1102,6 +1206,14 @@ video {
   line-height: 85%;
 }
 
+.leading-\[90\%\] {
+  line-height: 90%;
+}
+
+.leading-\[100\%\] {
+  line-height: 100%;
+}
+
 .tracking-\[-5\] {
   letter-spacing: -5;
 }
@@ -1112,6 +1224,22 @@ video {
 
 .tracking-\[-0\.025em\] {
   letter-spacing: -0.025em;
+}
+
+.tracking-\[-0\.01em\] {
+  letter-spacing: -0.01em;
+}
+
+.tracking-\[-0\.03em\] {
+  letter-spacing: -0.03em;
+}
+
+.tracking-\[0\.01em\] {
+  letter-spacing: 0.01em;
+}
+
+.tracking-\[-0\.005em\] {
+  letter-spacing: -0.005em;
 }
 
 .text-\[\#000000\] {
@@ -1136,6 +1264,11 @@ video {
 .text-\[\#6F6F6F\] {
   --tw-text-opacity: 1;
   color: rgb(111 111 111 / var(--tw-text-opacity));
+}
+
+.text-\[\#485C11\] {
+  --tw-text-opacity: 1;
+  color: rgb(72 92 17 / var(--tw-text-opacity));
 }
 
 .opacity-60 {
