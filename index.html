@@ -10,31 +10,31 @@
 
 
 </head>
-<body>
+<body class="scroll-smooth">
     <nav class="w-full">
-        <div class="max-w-[1500px] mx-auto flex justify-between items-center 
-            h-[148px] pt-[20px] pb-[80px] px-6">
+        <div class="max-w-[1500px] mx-auto flex justify-between items-center pt-[20px] pb-[80px] px-6">
             <div class="font-medium text-[30px] leading-[120%] tracking-[-0.05em] text-black">
                 <a href="#">Area</a>
             </div>
 
-            <div class="sticky top-[20px] z-50 transition-all duration-300 flex justify-center w-ful">
-                <ul class="flex items-center gap-[27px] pt-[20px] pb-[20px] pl-[24px] pr-[24px] rounded-[100px] bg-white/40 backdrop-blur-[30px] shadow-sm">
-                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans']" href="#">Benefits</a></li>
-                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans']" href="#">Specifications</a></li>
-                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans']" href="#">How-to</a></li>
-                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans']" href="#">Contact Us</a></li>
+            <div class="fixed top-[20px] left-1/2 transform -translate-x-1/2 z-50 transition-all duration-300">
+                <ul class="flex items-center gap-[27px] pt-[20px] pb-[20px] pl-[24px] pr-[24px] rounded-[100px] bg-white/30 backdrop-blur-xl border border-white/20 shadow-sm">
+                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans'] hover:opacity-70 transition" href="#benefits">Benefits</a></li>
+                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans'] hover:opacity-70 transition" href="#specifications">Specifications</a></li>
+                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans'] hover:opacity-70 transition" href="#map">How-to</a></li>
+                    <li><a class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-black font-['DM_Sans'] hover:opacity-70 transition" href="#connect">Contact Us</a></li>
                 </ul>
             </div>
 
             <a href="https://www.figma.com/sites" class="flex items-center gap-[2px] px-[22px] py-[14px] rounded-full bg-[#485C11] text-white font-bold text-[14px] hover:opacity-90 transition group">
-                <span class="font-bold text-[14px] font-[700px] leading-[140%] tracking-[-0.025em] text-white font-['DM_Sans']">
+                <span class="font-bold text-[14px] leading-[140%] tracking-[-0.025em] text-white font-['DM_Sans']">
                     Learn More
                 </span>
                 <img src="images/arrow.png" alt="arrow" class="w-[6px] h-[6.01px] transition-transform duration-300 ease-out group-hover:-translate-y-[3px]">
             </a>
         </div> 
     </nav>
+    <div class="h-[100px]"></div>
 
     <header class="w-full">
         <div class="max-w-[1500px] mx-auto flex flex-col gap-[240px]">
@@ -85,7 +85,7 @@
             </div>
         </section>
 
-        <div class="w-full flex flex-col max-w-[1500px] mx-auto pb-[120px]">
+        <div id="benefits" class="w-full flex flex-col max-w-[1500px] mx-auto pb-[120px]">
             <section class="w-full flex flex-col pt-[80px] pb-[60px] gap-[50px]">
 
                 <div class="max-w-[1500px] mx-auto flex flex-col pr-[400px] gap-[50px]">
@@ -176,7 +176,7 @@
             </div>
         </section>
 
-        <section id="Specifications" class="w-full flex flex-col justify-center max-w-[1500px] mx-auto border-t [120px] gap-[20px]">
+        <section id="specifications" class="w-full flex flex-col justify-center max-w-[1500px] mx-auto border-t [120px] gap-[20px]">
             <div id="content" class="w-full flex flex-col items-center text-center border-[#929292] px-[240px] py-[80px] gap-[40px]">
                 <div id="text-content" class="max-w-[720px] flex flex-col items-center gap-[40px]">
                     <h2 class="font-['Roboto_Mono'] font-normal text-[12px] text-[#485C11] leading-[140%] tracking-[-0.01em]">Specs</h2>
@@ -209,7 +209,7 @@
             </section>
         </div>
 
-        <section class="w-full max-w-[1500px] mx-auto flex flex-col justify-center border-t pt-[80px] pb-[120px] gap-[80px]">
+        <section id="map" class="w-full max-w-[1500px] mx-auto flex flex-col justify-center border-t pt-[80px] pb-[120px] gap-[80px]">
             <div class="w-full max-w-[1200px] shrink-0 mx-auto flex justify-between items-center flex-nowrap">
 
                 <p class="w-[397px] font-['Crimson_Text'] font-normal text-black text-[60px] text-black leading-[90%] tracking-[-0.03em]">Map Your Success</p>
@@ -254,7 +254,7 @@
             </div>
         </div>
 
-        <section class="w-full max-w-[1500px] flex flex-col justify-center items-center text-center px-[300px] py-[100px] gap-[40px] border-t">
+        <section id="connect" class="w-full max-w-[1500px] flex flex-col justify-center items-center text-center px-[300px] py-[100px] gap-[40px] border-t">
             <p class="font-['Crimson_Text'] font-normal text-[60px] text-black leading-[90%] tracking-[-0.03em]">Connect with us</p>
             <p class="font-['DM_Sans'] font-normal text-[15px] text-black leading-[140%] tracking-[-0.005em]">Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.
             </p>
@@ -271,9 +271,9 @@
         <div class="w-[1400px] mx-auto flex flex-col gap-[80px]">
             <div class="w-full flex justify-between items-center">
                 <div class="flex gap-[27px]">
-                    <a class="w-[54px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">Benefits</a>
-                    <a class="w-[93px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">Specifications</a>
-                    <a class="w-[50px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">How-to</a>
+                    <a href="#benefits" class="w-[54px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">Benefits</a>
+                    <a href="#specifications" class="w-[93px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">Specifications</a>
+                    <a href="#map" class="w-[50px] h-[20px] font-['DM_Sans'] font-bold text-[14px] text-black leading-[140%] tracking-[-0.025em]">How-to</a>
                 </div>
             </div>
 
